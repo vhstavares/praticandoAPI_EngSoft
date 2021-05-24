@@ -25,8 +25,12 @@
     <artifactId>javassist</artifactId>
     <version>3.20.0-GA</version>
 </dependency>
-	
-	
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-tomcat</artifactId>
+		<scope>provided</scope>
+		</dependency>
+			
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
