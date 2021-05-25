@@ -21,5 +21,5 @@ public class PraticandoApiApplication {
 	String home()
 	{
 		return "home.html";
-		}
+	}
 }
