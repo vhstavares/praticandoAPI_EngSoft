@@ -20,6 +20,6 @@ public class PraticandoApiApplication {
 	@ResponseBody
 	String home()
 	{
-		return "home.html";
+		return "Rodando Aplicacao";
 	}
 }
